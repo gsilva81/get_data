@@ -66,8 +66,7 @@ docker-compose up --build
 ## UTILIZANDO POSTMAN:
 
 ## Endpoints disponíveis:
-
-### POST `/weather/{city}`
+## POST `/weather/{city}`
 > Consome a OpenWeather API e salva os dados no banco.
 
 Exemplo:
