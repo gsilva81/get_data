@@ -7,7 +7,7 @@ from sqlalchemy.exc import OperationalError
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 
-# Tentativas de conexão com delay (espera o banco subir)
+# Espera o banco subir para poder realizar a conexão
 max_retries = 10
 for attempt in range(max_retries):
     try:
