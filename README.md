@@ -45,7 +45,7 @@ Crie um arquivo `.env` na raiz com o seguinte conteúdo:
 
 ```dotenv
 DATABASE_URL=postgresql://postgres:postgres@db:5432/weather_db
-OPENWEATHER_API_KEY=COLOQUE SUA API
+OPENWEATHER_API_KEY=COLOQUE_SUA_KEY
 ```
 
 ---
