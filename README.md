@@ -62,6 +62,9 @@ docker-compose up --build
 
 ---
 
+
+## UTILIZANDO POSTMAN:
+
 ## Endpoints disponíveis:
 
 ### POST `/weather/{city}`
