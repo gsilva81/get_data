@@ -54,7 +54,7 @@ OPENWEATHER_API_KEY=COLOQUE_SUA_KEY
 ### 3. Subir os containers com Docker:
 
 ```bash
-docker-compose up --build
+docker-compose up 
 ```
 
 - API: http://localhost:8000
