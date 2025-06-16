@@ -30,11 +30,12 @@ O objetivo é demonstrar habilidades em:
     após cadastro acessar: (https://home.openweathermap.org/api_keys) e copiar a key default
 ---
 
-### Como executar o projeto
+### Como executar o projeto:
 
 ### 1. Clonar o repositório:
 
-git clone https://github.com/gsilva81/get_data.git
+git clone https://github.com/gsilva81/get_data.git,
+
 cd get_data
 
 ---
