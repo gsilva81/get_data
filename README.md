@@ -36,6 +36,7 @@ O objetivo é demonstrar habilidades em:
 
 git clone https://github.com/gsilva81/get_data.git
 cd get_data
+
 ---
 
 ### 2. Configurar as variáveis de ambiente:
