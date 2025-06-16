@@ -9,7 +9,9 @@ def fetch_weather_data(city):
         data = response.json()
         return {
             "city": city,
+            "country": data["sys"]["country"],
             "temperature": data["main"]["temp"],
+            "feels_like": data["main"]["feels_like"],
             "humidity": data["main"]["humidity"],
             "description": data["weather"][0]["description"],
         }
