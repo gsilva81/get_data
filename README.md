@@ -71,13 +71,24 @@ docker-compose up
 
 Exemplo:
 POST http://localhost:8000/weather/Manaus
+
+Retorno:
+
+![image](https://github.com/user-attachments/assets/3a44cfca-2829-46bf-a3e7-3e28778a4df3)
+
 ---
+
 
 ### GET `/weather/{city}`
 > Retorna os dados salvos no banco para a cidade especificada.
 
 Exemplo:
 GET http://localhost:8000/weather/Manaus
+
+Retorno:
+
+![image](https://github.com/user-attachments/assets/e72163bd-7fa4-414f-8060-795c1538e086)
+
 ---
 
 ## Autor
