@@ -1,0 +1,85 @@
+# Projeto: API de Clima com FastAPI, PostgreSQL e Docker
+
+Este projeto foi desenvolvido como parte de um processo seletivo para a vaga de Cientista de Dados / Desenvolvedor Full Stack (com foco em Bioinformática).
+
+O objetivo é demonstrar habilidades em:
+
+- Consumo de API externa (OpenWeather)
+- Persistência de dados em banco relacional (PostgreSQL)
+- Exposição de API RESTful
+- Conteinerização com Docker
+- Organização de código e versionamento com Git
+
+---
+
+## Tecnologias utilizadas
+
+- Python 3.11
+- FastAPI
+- PostgreSQL 15
+- SQLAlchemy
+- Docker / Docker Compose
+- OpenWeather API
+
+---
+
+## Requisitos
+
+2 - Cadastro na OpenWeather para gerar uma API KEY:  
+    [https://home.openweathermap.org/users/sign_up]
+    após cadastro acessar: (https://home.openweathermap.org/api_keys) e copiar a key default
+---
+
+### Como executar o projeto
+
+### 1. Clonar o repositório:
+
+git clone https://github.com/gsilva81/get_data.git
+cd get_data
+
+
+### 2. Configurar as variáveis de ambiente:
+
+Crie um arquivo `.env` na raiz com o seguinte conteúdo:
+
+```dotenv
+DATABASE_URL=postgresql://postgres:postgres@db:5432/weather_db
+OPENWEATHER_API_KEY=SUA_API_KEY_AQUI
+```
+
+---
+
+### 3. Subir os containers com Docker:
+
+```bash
+docker-compose up --build
+```
+
+- API: http://localhost:8000
+- Swagger UI: http://localhost:8000/docs
+
+---
+
+## Endpoints disponíveis:
+
+### POST `/weather/{city}`
+> Consome a OpenWeather API e salva os dados no banco.
+
+Exemplo:
+POST http://localhost:8000/weather/Manaus
+---
+
+### GET `/weather/{city}`
+> Retorna os dados salvos no banco para a cidade especificada.
+
+Exemplo:
+GET http://localhost:8000/weather/Manaus
+---
+
+## Autor
+
+Gabriel de Oliveira Silva
+
+LinkedIn: (https://www.linkedin.com/in/gabriel-silva-5331242b8/)
+
+Repositório Github: (https://github.com/gsilva81/get_data.git)

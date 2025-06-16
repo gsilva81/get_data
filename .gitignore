@@ -1,0 +1,29 @@
+# Ignorar ambiente virtual
+venv/
+
+# Ignorar arquivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de configuração locais / IDEs
+*.vscode/
+.idea/
+*.env
+.env
+
+# Arquivos de log
+*.log
+
+# Docker build cache
+*.docker
+
+# Pytest / Coverage / Test files
+htmlcov/
+.coverage
+.cache/
+
+# Outros arquivos temporários
+*.bak
+*.swp
