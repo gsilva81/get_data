@@ -90,6 +90,11 @@ Retorno:
 ![image](https://github.com/user-attachments/assets/e72163bd-7fa4-414f-8060-795c1538e086)
 
 ---
+## No Navegador
+
+![image](https://github.com/user-attachments/assets/5f4347bf-9a83-486c-82e0-687a44651d81)
+
+---
 
 ## Autor
 
